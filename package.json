@@ -1,0 +1,17 @@
+{
+  "name": "electron_widget",
+  "version": "1.0.0",
+  "description": "npm install electron --save-dev",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "build": "electron-packager ."
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "electron": "^25.2.0",
+    "electron-settings": "^4.0.2"
+  }
+}

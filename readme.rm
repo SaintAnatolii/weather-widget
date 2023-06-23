@@ -1,0 +1,7 @@
+npm install electron --save-dev
+
+// для запуска приложения
+npm start
+
+// собрать 
+electron-packager . --overwrite --platform=win32 --arch=x64 --out=release-builds
